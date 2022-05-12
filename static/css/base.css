@@ -1,0 +1,412 @@
+.el-tabs__content
+{
+  height:100%;
+}
+
+.disclaimer {
+   display: none;
+}
+
+
+.el-tabs__content .el-tab-pane
+{
+   height:100%;
+}
+
+#chart1, #chart2,#chart3,#chart4
+{
+   height:100%;
+}
+
+#pchart1, #pchart2,#pchart3,#pchart4
+{
+   height:100%;
+}
+.el-tabs--border-card>.el-tabs__header .el-tabs__item1
+{
+  color: #000 !important;
+}
+ 
+.text-red
+{
+    color: #ff0000;
+    font-size: 20px;
+}
+.el-tabs__item
+{
+padding: 0 31px !important;
+ 
+}
+.numbelwrnmessage
+{
+        position: absolute;
+    right: 6px;
+    top: 1px;
+    background: red;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 11px;
+    margin-left: 10px;
+    color: #fff;
+
+}
+
+.numbelclmmessage
+{
+        position: absolute;
+    right: 6px;
+    top: 1px;
+    background: #ffcc00;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 11px;
+    margin-left: 10px;
+    color: #fff;
+
+}
+
+.numbelcltmessage
+{
+        position: absolute;
+    right: 6px;
+    top: 1px;
+    background: #0066cc;
+     border: 1px solid #fff;
+    width: 21px;
+    height: 21px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 11px;
+    margin-left: 10px;
+    color: #fff;
+
+}
+
+
+.text-blcok
+{
+    color: #000;
+    cursor: pointer;
+}
+.state-c
+{
+  cursor: pointer;
+
+}
+.state-c:hover
+{
+background-color: #166bce;
+    border-color: #166bce  !important;
+    color: #fff  !important;
+
+}
+ .companydel {
+            color: #909399;
+            position: absolute;
+            left: -200px;
+            top: 1px;
+            font-size: 12px;
+ 
+          }
+ 
+          .fl {
+              float: left;
+          }
+ 
+          .fr {
+              float: right;
+
+ }
+ .el-card__body
+ {
+    padding-top: 5px !important;
+ }
+ .el-card__body h4
+ {
+    padding-bottom: 10px !important;
+ }
+ .el-timeline-item
+ {
+  padding-bottom: 5px !important;
+ }
+
+.el-timeline-item__node--large
+{
+    width: 20px !important;
+    height: 20px !important;
+}
+.width100
+{
+   width: 100% !important;
+}
+.el-dialog__wrapper
+{
+ z-index: 11111111111 !important ;
+ right: 150px !important;
+}
+.secondary-toolbar .el-input__inner
+{
+ 
+    width: 77%;
+    float: left;
+
+
+}
+.content-wrap .el-tabs 
+{
+   width: 100% !important;
+
+  height: calc(100% - 40px ) !important;
+}
+.wrnicon
+{
+    color: red;
+    font-size: 1.7em;
+    vertical-align: middle;
+    left: 0;
+    top: 4px;
+    position: absolute;
+
+}
+.badgeitem {
+  margin-top: 10px;
+  margin-right: 40px;
+}
+.svg-icon9
+{
+    position: absolute;
+    width: 18px !important;
+    height: 18px !important;
+    left: 23px;
+    top: 10px;
+}
+.my-label {
+    position: absolute;
+    width:100px;
+    text-align: center;
+    font-size:20px;
+
+    background-color:rgba(0, 0, 0, 0.6);
+    background-clip: padding-box;
+    color: #fff;
+    display: block;
+    font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 1px 3px;
+    position: absolute;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    white-space: nowrap;
+    z-index: 6;
+ 
+}
+.unclose
+{
+      
+    border: 2px solid red;
+    border-radius: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+
+}
+.close
+{
+      
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+
+}
+.rightbox1
+{
+    width: 64% !important;
+}
+.leftbox1
+{
+    width: 35% !important;
+}
+
+.okbutton
+{
+    float: right;
+    position: relative;
+    height: 50px;
+    line-height: 57px;
+}
+
+ .el-table__body-wrapper
+ {
+    height: auto !important;
+ }
+ .mintable .cell:hover {
+     cursor: pointer;
+    background-color: #409EFF;
+    color: #fff;
+}
+
+.el-input
+{
+    display: block !important;
+
+}
+.eselect 
+{
+
+    border-radius: 0;
+    border: 1px solid #c6d1de;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 8px;
+    color: #1a1a1a;
+}
+
+.init-table
+{
+    border: 0px solid #ccc !important;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.init-table td
+{
+  height: 50px;
+}
+.init-table .el-table__body , .init-table  .el-table__header , .box_tool_layout
+{
+   padding-right: 0%;
+    padding-left: 0%;
+    width: auto !important;
+ 
+}
+
+.leaflet-tooltip-right:before
+{
+  border-right-color: #fff;
+}
+
+.mapwait
+{
+    height: 100%;
+    width: 100%;
+    position: absolute !important;
+    top: 0px;
+}
+.el-dropdown
+{
+    cursor: pointer;
+}
+
+.stationstar
+{
+    width: 100%;
+    
+    height: calc( 40% - 15px );
+    margin-top: 15px;
+}
+
+.rainlever
+{
+    width: 100%;
+    
+    height: 65px;
+    padding-top: 15px;
+}
+ .lv
+{
+  width: 16.2%;
+  height: 100%;
+  float: left;
+ 
+}
+.lvtilte
+{
+     float: left;
+     margin-left: 5px !important;
+    height: 40px;
+    line-height: 8px;
+    margin: 0px;
+    padding: 0px;
+    width: 60px;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: bold;
+   
+}
+.lvbox
+{
+    width: calc( 100% - 65px )  ; 
+    float: left; 
+    height: 100%;
+
+}
+.lvlengend
+{
+  background: red;
+    height: 10px;
+}
+.lvlengendname
+{
+  
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+
+.lv1
+{
+    background-color: #a5f38d;
+}
+.lv2
+{
+    background-color: #3ab63a;
+}
+.lv3
+{
+    background-color: #5bb4f8;
+}
+.lv4
+{
+    background-color: #0202fa;
+}
+.lv5
+{
+    background-color: #fd00f9;
+}
+.lv6
+{
+    background-color: #810040;
+}
+ 
+
+
+
+.legenditem
+{
+        width: 13px;
+    height: 13px;
+    border-radius: 50%;
+  
+    float: left;
+    margin: 3px;
+}
+.legenditembox
+{
+      width: 25%;
+    float: left;
+    text-align: center;
+    padding-left: 5%;
+}
+    
+   

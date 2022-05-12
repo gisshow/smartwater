@@ -1,0 +1,305 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>基础 Mesh</title>
+    <style>
+        html,
+        body,
+        #container {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .input-card {
+          position: fixed;
+          bottom: 10px;
+          right: 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="container"></div>
+<div class="input-card" style="width: 200px">
+  <button class="btn" onclick="drawPolygon()" style="margin-bottom: 5px">绘制多边形</button>
+</div>
+<script src="https://webapi.amap.com/maps?v=1.4.15&key=7ea8b625d9866d3986b7138e86304e64&plugin=Map3D,AMap.MouseTool,AMap.Geocoder"></script>
+<script>
+    var map = new AMap.Map('container', {
+      viewMode: '3D',
+      pitch: 50,
+      zoom: 11,
+      center: [116.480766, 39.932931]
+    });
+
+    // 设置光照
+    map.AmbientLight = new AMap.Lights.AmbientLight([1, 1, 1], 0.5);
+    map.DirectionLight = new AMap.Lights.DirectionLight([1, -1, 2], [1, 1, 1], 0.8);
+
+    var object3Dlayer = new AMap.Object3DLayer();
+    map.add(object3Dlayer);
+
+    /***
+     *  绘制二维坐标
+     * */
+    var mouseTool = new AMap.MouseTool(map)
+    function drawPolygon () {
+      mouseTool.polygon({
+        strokeColor: "#FF33FF", 
+        strokeOpacity: 1,
+        strokeWeight: 2,
+        strokeOpacity: 0.2,
+        fillColor: '#FFC600',
+        fillOpacity: 0.4,
+        // 线样式还支持 'dashed'
+        strokeStyle: "dashed",
+        // strokeStyle是dashed时有效
+        strokeDasharray: [30,10],
+      })
+    }
+    mouseTool.on('draw', function(event) {
+      mouseTool.close(true)
+      // event.obj 为绘制出来的覆盖物对象
+      console.log('覆盖物对象绘制完成:', event, event.obj.toString())
+      // 将多边形转换成三维坐标
+      const points = event.obj.toString().split(';')
+      const path = []
+      points.forEach(item => {
+        path.push(changes(item))
+      })
+      console.log(path)
+
+      // console.log('多边形经纬度：', event.obj.w.path)
+      // const path = event.obj.w.path
+      // 删除多边形
+      map.remove(event.obj)
+
+      // 添加mesh
+      drawMesh(path, 5)
+    })
+
+    // 高德定位坐标转三维地理坐标
+    function changes (point) {
+      if(!point) return
+      var inputVal = point.split(',');
+      var lnglat = new AMap.LngLat(inputVal[0], inputVal[1]);
+      var pixel = map.lngLatToGeodeticCoord(lnglat);
+      pixel.x = parseInt(pixel.x);
+      pixel.y = parseInt(pixel.y);
+      return [pixel.x, pixel.y]
+    }
+
+    // 楼层颜色
+    const color = [0, 1, 1, 0.5];
+    const topFaceColor = [0.9, 0.6, 0, 0.5];
+    // 模型id与mesh映射表
+    const meshMap = new Map()
+    // mesh模型id与楼层映射表
+    const floorMap = new Map()
+    // mesh 选中激活表
+    const floorActiveMap = new Map()
+
+    // 绘制大楼楼层
+    function drawMesh (path, storey = 1) {
+      // 绘制楼层
+      for (let i = 0; i < storey; i++) {
+        createMesh(path, i + 1, i+1 === storey)
+      }
+      // 绘制楼名称
+      const totalNum = {x: 0, y: 0}
+      path.forEach(item => {
+        console.log(item)
+        totalNum.x += item[0]
+        totalNum.y += item[1]
+      })
+      const center = [totalNum.x / path.length, totalNum.y / path.length]
+      console.log(center, map.geodeticCoordToLngLat(new AMap.Pixel(center[0],center[1])))
+
+      var text = new AMap.Text({
+        text: '测试用大楼',
+        verticalAlign: 'bottom',
+        position: map.geodeticCoordToLngLat(new AMap.Pixel(center[0],center[1])),
+        height: 1000 * storey + 200,
+        style: {
+            'background-color': 'transparent',
+            '-webkit-text-stroke': 'red',
+            '-webkit-text-stroke-width': '0.5px',
+            'text-align': 'center',
+            'border': 'none',
+            'color': 'white',
+            'font-size': '24px',
+            'font-weight': 600
+        }
+      })
+
+      text.setMap(map);
+    }
+
+    // 单层楼型
+    function createMesh (path, floor, isTop) {
+      const cylinder = new AMap.Object3D.Mesh()
+      const geometry = cylinder.geometry
+      const length = path.length
+      // 绘制线条点集合
+      const points = []
+      for (let i = 0; i < length; i++) {
+        // 底部顶点
+        geometry.vertices.push(path[i][0], path[i][1], -1000 * (floor - 1));
+        geometry.vertexColors.push.apply(geometry.vertexColors, color); //底部颜色
+        // 顶部顶点
+        geometry.vertices.push(path[i][0], path[i][1], -1000 * floor);
+        geometry.vertexColors.push.apply(geometry.vertexColors, color); //顶部颜色
+        
+        // 设置侧面三角形 四个顶点构成三个三角形
+        const bottomIndex = i * 2;
+        const topIndex = bottomIndex + 1;
+        const nextBottomIndex = (bottomIndex + 2) % (length * 2);
+        const nextTopIndex = (bottomIndex + 3) % (length * 2);
+
+        geometry.faces.push(bottomIndex, topIndex, nextTopIndex); //侧面三角形1
+        geometry.faces.push(bottomIndex, nextTopIndex, nextBottomIndex); //侧面三角形2
+      }
+
+      points.push(...geometry.vertices)
+
+      // 构建顶面三角形,为了区分顶面点和侧面点使用不一样的颜色,所以需要独立的顶点
+      for (let i = 0; i < length; i += 1) {
+        geometry.vertices.push.apply(geometry.vertices, geometry.vertices.slice(i * 6 + 3, i * 6 + 6)); //重复添加所有顶点
+        geometry.vertexColors.push.apply(geometry.vertexColors, topFaceColor);
+      }
+
+      const triangles = AMap.GeometryUtil.triangulateShape(path);
+      var offset = length * 2;
+
+      for (let v = 0; v < triangles.length; v += 3) {
+          geometry.faces.push(triangles[v] + offset, triangles[v + 2] + offset, triangles[v + 1] + offset);
+      }
+
+      cylinder.transparent = true; // 如果使用了透明颜色，请设置true
+      cylinder.backOrFront = 'both'; 
+      object3Dlayer.add(cylinder);
+      meshMap.set(cylinder.id, cylinder)
+      floorMap.set(cylinder.id, floor)
+      floorActiveMap.set(cylinder.id, false)
+
+      // 绘制边框
+      drawLine(points,isTop)
+    }
+
+    // 绘制线条 isTop 是否是顶楼，顶楼需要多绘制一个多边形边框
+    function drawLine(points = [], isTop) {
+      const paths = [];
+      for(let i=0; i<points.length; i+=3){
+        paths.push(points.slice(i,i+3))
+      }
+
+      var Line3D = new AMap.Object3D.Line();
+      Line3D.transparent = true;
+
+      var geometry = Line3D.geometry;
+      // 绘制侧边边框
+      for (let i = 0; i < paths.length; i++) {
+        geometry.vertices.push(...paths[i])
+        geometry.vertexColors.push(0.3, 0.3, 0.3, 0.8)
+      }
+      // 绘制底边边框
+      const bottomPoints = paths.filter((i, index) => index % 2 === 0)
+      for (let i = 0; i < bottomPoints.length; i++) {
+        geometry.vertices.push(...bottomPoints[i])
+        geometry.vertexColors.push(0.3, 0.3, 0.3, 0.8)
+        geometry.vertices.push(...bottomPoints[(i + 1) % bottomPoints.length])
+        geometry.vertexColors.push(0.3, 0.3, 0.3, 0.8)
+      }
+      if (isTop) {
+        const topPoints = paths.filter((i, index) => index % 2 === 1)
+        for (let i = 0; i < topPoints.length; i++) {
+          geometry.vertices.push(...topPoints[i])
+          geometry.vertexColors.push(0.3, 0.3, 0.3, 0.8)
+          geometry.vertices.push(...topPoints[(i + 1) % topPoints.length])
+          geometry.vertexColors.push(0.3, 0.3, 0.3, 0.8)
+        }
+      }
+
+      object3Dlayer.add(Line3D);
+    }
+
+    // 模型颜色重置
+    function resetMesh (mesh) {
+      let vertexColors = mesh.geometry.vertexColors;
+      // 因为楼层顶部顶点复用了，顶部顶点和底部顶点一一对应，所以又前2/3为侧边颜色，后1/3为顶部颜色
+      const topNums = vertexColors.length * 2 / 3
+      for (let i = 0; i < vertexColors.length; i+=4) {
+        if (i < topNums) {
+          vertexColors.splice(i, 4, ...color)
+        } else {
+          vertexColors.splice(i, 4, ...topFaceColor)
+        }
+      }
+      mesh.needUpdate = true
+      mesh.reDraw()
+      floorActiveMap.set(mesh.id, false)
+    }
+
+    // 选中变色
+    function updateMesh (mesh) {
+      // 判断当前模型是否在选中状态
+      if (floorActiveMap.get(mesh.id)) {
+        // 选中状态直接返回
+        return
+      } else {
+        // 查询之前的模型状态，如果有激活则重置为初始状态
+        for(let i of floorActiveMap) {
+          if (i[1]) {
+            console.log(meshMap.get(i[0]))
+            resetMesh(meshMap.get(i[0]))
+          }  
+        }
+        // 激活当前模型
+        floorActiveMap.set(mesh.id, true)
+        let vertexColors = mesh.geometry.vertexColors;
+        for (let i = 0; i < vertexColors.length; i+=4) {
+          vertexColors.splice(i, 4, 0.96, 0.41, 0.41, 1)
+        }
+        mesh.needUpdate = true
+        mesh.reDraw()
+      }
+    }
+
+    // 楼层拾取
+    function handleClickMesh (ev) {
+      var pixel = ev.pixel
+      var px = new AMap.Pixel(pixel.x, pixel.y)
+      var obj = map.getObject3DByContainerPos(px, [object3Dlayer], false) || {}
+      console.log(ev)
+
+      // 选中的 face 所在的索引
+      var index = obj.index
+      // 选中的 object3D 对象，这里为当前 Mesh
+      var object = obj.object
+      // 被拾取到的对象和拾取射线的交叉点的3D坐标
+      var point = obj.point
+      // 交叉点距透视原点的距离
+      var distance = obj.distance
+
+      if (obj.object && (obj.object.id || obj.object.id === 0) && obj.object.type === 'mesh') {
+        console.log(obj)
+        console.log('选中了' + floorMap.get(obj.object.id) + '楼')
+        updateMesh(obj.object)
+      }
+    }
+
+    // 拖拽后会导致点击定位不准，所有重新绑定事件
+    map.on('mousedown', handleClickMesh)
+    map.on('dragstart', (ev) => {
+      map.off('mousedown', handleClickMesh)
+    })
+    map.on('dragend', (ev) => {
+      map.on('mousedown', handleClickMesh)
+    })
+
+</script>
+
+</body>
+</html>

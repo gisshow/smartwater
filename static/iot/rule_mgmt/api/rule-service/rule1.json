@@ -1,0 +1,74 @@
+{
+  "code": "",
+  "data":
+  {
+    "resp": [
+    {
+      "respTp": "wechat",
+      "enable": 0,
+      "id": "30a444ad100749878dc8039471f499d4",
+      "users": []
+    },
+    {
+      "respTp": "sms",
+      "enable": 1,
+      "id": "e40b22af82004b98988a7d8a9a6d0f69",
+      "users": [
+      {
+        "userNm": "调度总值",
+        "wechat": null,
+        "sms": "18102261611",
+        "userId": "07c36dce26014837a4cf12810da2c77f",
+        "email": ""
+      }]
+    }],
+    "rule":
+    {
+      "clsVal": 12,
+      "scp": "single",
+      "rptVal": 12,
+      "visible": 1,
+      "grp": "wrn",
+      "resp": "短信",
+      "editable": 1,
+      "trg": "any",
+      "rptUnit": "hour",
+      "stMeas": "萝岗10号-东明三路 - 水深",
+      "trgCount": 136,
+      "id": "50009e8e52e84d50a1c54ad983af6986",
+      "updDt": "2021-09-01 07:49:23",
+      "crtDt": "2021-09-01 07:49:23",
+      "status": "enable",
+      "nm": "萝岗-10号井",
+      "clsUnit": "hour"
+    },
+    "items": [
+    {
+      "epl": "dtp$crt|thresholdOp$ge|thresholdVal$2.78",
+      "dtp": "crt",
+      "nt": null,
+      "stId": "81211051",
+      "type": "threshold",
+      "stCd": "81211051",
+      "eplDesc": "生产数据>=2.78",
+      "wrn_points": null,
+      "stMeasNm": "水深",
+      "stNm": "萝岗10号-萝平路（开萝大道路口）",
+      "stMeasId": "81211051z",
+      "id": "ac56023e4ad04f3cb60d38f76a04b479",
+      "ruleId": "50009e8e52e84d50a1c54ad983af6986",
+      "updDt": "2021-08-08 22:40:36",
+      "crtDt": "2021-08-08 22:40:36"
+    } 
+
+    
+
+
+  ]
+  },
+  "message": "",
+  "pages": 0,
+  "stackTrace": "",
+  "success": true,
+  "total": 1
+}

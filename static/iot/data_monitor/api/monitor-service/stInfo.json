@@ -1,0 +1,22 @@
+ {
+   "code": "",
+   "data":
+   {
+     "CD": "81211002",
+     "SITE": "广东省广州市黄埔区九龙大道",
+     "STTP_CD": "PZ",
+     "LOC_TP": "固定站",
+     "CRT_DT": "2020年04月22日 00:00:00",
+     "CRT_NUM": 0,
+     "ALM_NUM": 0,
+     "WRN_NUM": 0,
+     "STTP": "管网水位站",
+     "ID": "81211002",
+     "NM": "九龙二2号-九龙大道（广河高速）"
+   },
+   "message": "",
+   "pages": 0,
+   "stackTrace": "",
+   "success": true,
+   "total": 1
+ }

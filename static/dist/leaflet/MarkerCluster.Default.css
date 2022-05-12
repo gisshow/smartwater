@@ -1,0 +1,280 @@
+ .marker-cluster-small {
+	background-color: rgba(181, 226, 140, 0.6);
+	}
+.marker-cluster-small div {
+	background-color: rgba(110, 204, 57, 0.6);
+	}
+
+.marker-cluster-medium {
+	background-color: rgba(241, 211, 87, 0.6);
+	}
+.marker-cluster-medium div {
+	background-color: rgba(240, 194, 12, 0.6);
+	}
+
+.marker-cluster-large {
+	background-color: rgba(253, 156, 115, 0.6);
+	}
+.marker-cluster-large div {
+	background-color: rgba(241, 128, 23, 0.6);
+	}
+
+	/* IE 6-8 fallback colors */
+.leaflet-oldie .marker-cluster-small {
+	background-color: rgb(181, 226, 140);
+	}
+.leaflet-oldie .marker-cluster-small div {
+	background-color: rgb(110, 204, 57);
+	}
+
+.leaflet-oldie .marker-cluster-medium {
+	background-color: rgb(241, 211, 87);
+	}
+.leaflet-oldie .marker-cluster-medium div {
+	background-color: rgb(240, 194, 12);
+	}
+
+.leaflet-oldie .marker-cluster-large {
+	background-color: rgb(253, 156, 115);
+	}
+.leaflet-oldie .marker-cluster-large div {
+	background-color: rgb(241, 128, 23);
+}
+
+
+.good
+{
+ 
+ color :  #2ec8a6 ;
+}
+
+.good_title 
+{
+	    border-bottom: 1px solid #2ec8a6;
+      margin-right: 20px;
+ 
+}
+ .good_listdv
+ {
+    margin-top: 20px;
+    border-top: 1px solid #2ec8a6;
+    margin-right: 20px;
+ }   
+
+
+.good_border
+{
+ 
+  border: 2px solid  #2ec8a6 !important;
+}
+
+.good_bg
+{
+ background-color : #2ec8a6  !important;
+ 
+}
+
+.good:before
+{
+	    border-top: 80px solid #2ec8a6 !important;
+}
+
+
+
+.marker-cluster-good
+{
+	background-color1: rgba(0, 153, 51, 1);
+	background-image: url(images/good.png);
+}
+
+.marker-cluster-good div 
+{
+  background-color: #fff;
+}
+
+
+
+
+
+
+.excellent
+{
+ color : rgba(0, 102, 204, 1);
+}
+
+ .excellent_title 
+{
+	    border-bottom: 1px solid rgba(0, 102, 204, 1);
+      margin-right: 20px;
+ 
+}
+ .excellent_listdv
+ {
+    margin-top: 20px;
+    border-top: 1px solid  rgba(0, 102, 204, 1);
+    margin-right: 20px;
+ }   
+
+
+.excellent_border
+{
+ 
+  border: 2px solid  rgba(0, 102, 204, 1) !important;
+}
+
+.excellent_bg
+{
+ background-color : rgba(0, 102, 204, 1) !important;
+ 
+}
+
+.excellent:before
+{
+	    border-top: 80px solid rgba(0, 102, 204, 1) !important;
+}
+
+
+
+
+.marker-cluster-excellent
+{
+	background-color1: rgba(0, 102, 204, 1);
+		background-image: url(images/excellent.png);
+}
+
+.marker-cluster-excellent div
+{
+	background-color: #fff;
+}
+
+.severe
+{
+ color : rgba(255, 0, 0, 1);
+}
+ .severe_title 
+{
+	    border-bottom: 1px solid rgba(255, 0, 0, 1);
+      margin-right: 20px;
+ 
+}
+ .severe_listdv
+ {
+    margin-top: 20px;
+    border-top: 1px solid  rgba(255, 0, 0, 1);
+    margin-right: 20px;
+ }   
+
+
+
+.severe_border
+{
+ 
+  border: 2px solid  rgba(255, 0, 0, 1) !important;
+}
+
+.severe_bg
+{
+ background-color : rgba(255, 0, 0, 1) !important;
+ 
+}
+
+.severe:before
+{
+	    border-top: 80px solid rgba(255, 0, 0, 1) !important;
+}
+
+
+.marker-cluster-severe
+{
+ 
+ background-color1: rgba(255, 0, 0, 1);
+ 		background-image: url(images/severe.png);
+}
+
+.marker-cluster-severe div
+{
+background-color: #fff;
+ 
+}
+
+.milder
+{
+ color : rgba(255, 204, 0, 1);
+}
+ .milder_title 
+{
+	    border-bottom: 1px solid   rgba(255, 204, 0, 1);
+      margin-right: 20px;
+ 
+}
+ .milder_listdv
+ {
+    margin-top: 20px;
+    border-top: 1px solid  rgba(255, 204, 0, 1);
+    margin-right: 20px;
+ }   
+
+
+ 
+.milder_border
+{
+ 
+  border: 2px solid  rgba(255, 204, 0, 1) !important;
+}
+
+.milder_bg
+{
+ background-color : rgba(255, 204, 0, 1) !important;
+ 
+}
+
+.milder:before
+{
+	    border-top: 80px solid rgba(255, 204, 0, 1) !important;
+}
+
+
+.marker-cluster-milder   
+{
+ background-color1: rgba(255, 204, 0, 1);
+ background-image: url(images/milder.png);
+	 
+}
+.marker-cluster-milder div 
+{
+	 
+	 background-color: #fff; 
+}
+
+.marker-cluster {
+	background-clip: padding-box;
+	border-radius: 20px;
+	}
+.marker-cluster div {
+
+    margin-top: 5px !important;
+    margin-left: 11px !important;
+    line-height: normal !important;
+    zoom: 0 !important;
+    width: 55px !important;
+    height: 55px !important;
+    text-align: center;
+    border-radius: 50%;
+
+/*
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: 5px;
+
+	text-align: center;
+	border-radius: 15px;
+	font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+
+  */
+
+
+	}
+.marker-cluster span {
+ height: 30px;
+	}

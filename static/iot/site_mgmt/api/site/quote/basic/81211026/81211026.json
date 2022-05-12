@@ -1,0 +1,74 @@
+   {
+   "code": "",
+   "data": [
+   {
+     "dtmel": 34.660,
+     "id": "2b22a674799a11eab5fa00163e0b0212",
+     "nm": "管径",
+     "pn": "pipe",
+     "remark": "",
+     "stId": "81211004",
+     "stnm": "九龙一4号-九龙大道（何棠下村口上游）",
+     "sttp": "PZ",
+     "symbol": "",
+     "unit": "m",
+     "val": 0.40
+   },
+   {
+     "dtmel": 34.660,
+     "id": "9ead1f67799911eab5fa00163e0b0212",
+     "nm": "井底",
+     "pn": "bottom",
+     "remark": "",
+     "stId": "81211004",
+     "stnm": "九龙一4号-九龙大道（何棠下村口上游）",
+     "sttp": "PZ",
+     "symbol": "",
+     "unit": "m",
+     "val": 35.11
+   },
+   {
+     "dtmel": 34.660,
+     "id": "9eb4ca54799911eab5fa00163e0b0212",
+     "nm": "井深",
+     "pn": "top",
+     "remark": "",
+     "stId": "81211004",
+     "stnm": "九龙一4号-九龙大道（何棠下村口上游）",
+     "sttp": "PZ",
+     "symbol": "",
+     "unit": "m",
+     "val": 4.11
+   },
+   {
+     "dtmel": 34.660,
+     "id": "9ebd260d799911eab5fa00163e0b0212",
+     "nm": "预警",
+     "pn": "warn",
+     "remark": "",
+     "stId": "81211004",
+     "stnm": "九龙一4号-九龙大道（何棠下村口上游）",
+     "sttp": "PZ",
+     "symbol": "",
+     "unit": "m",
+     "val": 3.31
+   },
+   {
+     "dtmel": 34.660,
+     "id": "9ec6d202799911eab5fa00163e0b0212",
+     "nm": "提示",
+     "pn": "info",
+     "remark": "",
+     "stId": "81211004",
+     "stnm": "九龙一4号-九龙大道（何棠下村口上游）",
+     "sttp": "PZ",
+     "symbol": "",
+     "unit": "m",
+     "val": 3.30
+   }],
+   "message": "",
+   "pages": 0,
+   "stackTrace": "",
+   "success": true,
+   "total": 5
+ }

@@ -1,0 +1,43 @@
+{
+  "code": "",
+  "data": [
+  {
+    "epl": "dtp$crt|noneTmVal$60|noneTmUnit$min",
+    "dtp": "crt",
+    "nt": null,
+    "stId": "81211001",
+    "type": "none",
+    "stCd": "81211001",
+    "eplDesc": "超过60分钟未收到生产数据",
+    "wrn_points": null,
+    "stMeasNm": "水深",
+    "stNm": "九龙二1号-九龙大道（镇龙北地铁站）",
+    "stMeasId": "81211001z",
+    "id": "4c7a3ffa6dc943098a275e6c003f846d",
+    "ruleId": "283e5299a13b48218900c5e217a556e2",
+    "updDt": "2021-06-30 23:10:34",
+    "crtDt": "2021-06-30 23:10:34"
+  },
+  {
+    "epl": "dtp$crt|thresholdOp$ge|thresholdVal$7.14",
+    "dtp": "crt",
+    "nt": null,
+    "stId": "81211001",
+    "type": "threshold",
+    "stCd": "81211001",
+    "eplDesc": "生产数据>=7.14",
+    "wrn_points": null,
+    "stMeasNm": "水深",
+    "stNm": "九龙二1号-九龙大道（镇龙北地铁站）",
+    "stMeasId": "81211001z",
+    "id": "6f215ce7ed2b4836b82227017b4eed46",
+    "ruleId": "42c22636b72340eb9ab785959a62ee4e",
+    "updDt": "2021-06-30 23:09:59",
+    "crtDt": "2021-06-30 23:09:59"
+  }],
+  "message": "",
+  "pages": 0,
+  "stackTrace": "",
+  "success": true,
+  "total": 2
+}

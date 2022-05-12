@@ -1,0 +1,2 @@
+webpackJsonp([4],{"3zin":function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){var e=this.$createElement,t=this._self._c||e;return t("div",{staticClass:"twoRoute"},[t("router-view")],1)},staticRenderFns:[]};var a=n("VU/8")({name:""},r,!1,function(e){n("L9Yl")},"data-v-52946e56",null);t.default=a.exports},L9Yl:function(e,t){}});
+//# sourceMappingURL=4.51d6436dfe0cbf007f68.js.map

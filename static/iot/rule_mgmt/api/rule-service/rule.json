@@ -1,0 +1,62 @@
+{
+  "code": "",
+  "data":
+  {
+    "resp": [
+    {
+      "respTp": "wechat",
+      "enable": 0,
+      "id": "6e07271e25a24552ad283373859da6e4",
+      "users": []
+    },
+    {
+      "respTp": "sms",
+      "enable": 0,
+      "id": "85d34c5f4f2b412c916cc8324b33872f",
+      "users": []
+    }],
+    "rule":
+    {
+      "clsVal": 12,
+      "scp": "single",
+      "rptVal": 12,
+      "visible": 1,
+      "grp": "alm",
+      "resp": "无",
+      "editable": 1,
+      "trg": "any",
+      "rptUnit": "hour",
+      "stMeas": "九龙-2号井 - 水深",
+      "trgCount": 20,
+      "id": "a2f5999571354facbe254d3adcaa171e",
+      "updDt": "2021-07-07 19:56:39",
+      "crtDt": "2021-07-07 19:56:38",
+      "status": "enable",
+      "nm": "九龙-2号井",
+      "clsUnit": "hour"
+    },
+    "items": [
+    {
+      "epl": "dtp$crt|noneTmVal$60|noneTmUnit$min",
+      "dtp": "crt",
+      "nt": null,
+      "stId": "81211002",
+      "type": "none",
+      "stCd": "81211002",
+      "eplDesc": "超过60分钟未收到生产数据",
+      "wrn_points": null,
+      "stMeasNm": "水深",
+      "stNm": "九龙二2号-九龙大道（广河高速）",
+      "stMeasId": "81211002z",
+      "id": "7616d89c8d2848a99e26ffabe339b9f7",
+      "ruleId": "a2f5999571354facbe254d3adcaa171e",
+      "updDt": "2021-06-30 23:21:13",
+      "crtDt": "2021-06-30 23:21:13"
+    }]
+  },
+  "message": "",
+  "pages": 0,
+  "stackTrace": "",
+  "success": true,
+  "total": 1
+}

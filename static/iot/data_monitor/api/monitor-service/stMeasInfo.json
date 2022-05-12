@@ -1,0 +1,31 @@
+ {
+   "code": "",
+   "data": [
+   {
+     "VAL": "0.68(m)",
+     "CAL_TP": "cal",
+     "CAL_FUNC": "counter(1)->[A]",
+     "ID": "81211004z",
+     "sttp": "PZ",
+     "VAL_UNIT": "m",
+     "NM": "水深",
+     "ST_MEAS_ID": "81211004z",
+     "TS": "2021/11/30 18:10:22"
+   },
+   {
+     "VAL": "3.61(V)",
+     "CAL_TP": "cal",
+     "CAL_FUNC": "counter(1)->[A]",
+     "ID": "81211004psv",
+     "sttp": "PZ",
+     "VAL_UNIT": "V",
+     "NM": "电池电压",
+     "ST_MEAS_ID": "81211004psv",
+     "TS": "2021/11/30 17:45:10"
+   }],
+   "message": "",
+   "pages": 0,
+   "stackTrace": "",
+   "success": true,
+   "total": 2
+ }

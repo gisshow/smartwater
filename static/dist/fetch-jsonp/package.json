@@ -1,0 +1,64 @@
+{
+  "_from": "fetch-jsonp",
+  "_id": "fetch-jsonp@1.2.1",
+  "_inBundle": false,
+  "_integrity": "sha512-5UwejksxssYwlwl/9OhEQU+OrVaxdChOQntpJO/GUw6NpfPS6fd08fPvbNOq0Ym6hxfLWD6cGN0Ln/V/hWcluw==",
+  "_location": "/fetch-jsonp",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "fetch-jsonp",
+    "name": "fetch-jsonp",
+    "escapedName": "fetch-jsonp",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/fetch-jsonp/-/fetch-jsonp-1.2.1.tgz",
+  "_shasum": "a3ea630a992ae594cfbf5676e7f5fe4d2f8f03aa",
+  "_spec": "fetch-jsonp",
+  "_where": "E:\\迅雷下载\\bigscreen-main\\bigscreen-main\\gitspace\\NationalWaterStation",
+  "author": {
+    "name": "Cam Song"
+  },
+  "bugs": {
+    "url": "https://github.com/camsong/fetch-jsonp/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Fetch JSONP like a boss using Fetch API",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babel-core": "^5.8.21",
+    "babel-eslint": "^4.0.5",
+    "eslint": "^1.1.0",
+    "eslint-config-airbnb": "^0.0.7",
+    "eslint-plugin-react": "^3.2.1"
+  },
+  "homepage": "https://github.com/camsong/fetch-jsonp#readme",
+  "keywords": [
+    "fetch",
+    "jsonp",
+    "github fetch",
+    "ajax"
+  ],
+  "license": "MIT",
+  "main": "build/fetch-jsonp.js",
+  "name": "fetch-jsonp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camsong/fetch-jsonp.git"
+  },
+  "scripts": {
+    "build": "babel src/ --modules umd --out-dir build",
+    "clean": "rm -rf build",
+    "lint": "eslint src/",
+    "prepublish": "npm run lint && npm run clean && npm run build"
+  },
+  "version": "1.2.1"
+}

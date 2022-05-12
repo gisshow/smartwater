@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 443.35 256.98">
+  <defs>
+    <style>.cls-1{fill:none;}.cls-2{fill:url(#未命名的渐变);}.cls-3{fill:#e8d597;}.cls-4{fill:#dd8a00;}.cls-10,.cls-11,.cls-5,.cls-6,.cls-7,.cls-8{isolation:isolate;}.cls-10,.cls-11,.cls-5,.cls-6,.cls-8{font-size:15px;}.cls-5,.cls-6{fill:#b38b16;}.cls-5,.cls-8{font-family:Helvetica, Helvetica;}.cls-10,.cls-11,.cls-6,.cls-7{font-family:PingFangSC-Regular-GBpc-EUC-H, PingFang SC;}.cls-7{font-size:14px;fill:#333;}.cls-8{fill:#b5b5b6;}.cls-9{fill:#7cb4e1;}.cls-10{fill:#00a0e9;}.cls-11{fill:#e61673;}.cls-12{fill:#e7dec2;}.cls-13{clip-path:url(#clip-path);}.cls-14{fill:#87836b;}.cls-15{clip-path:url(#clip-path-2);}.cls-16{clip-path:url(#clip-path-3);}
+	
+
+
+	.st0{fill:#00AFEC;}
+	.st1{fill:none;}
+	.st2{fill:#ffffff;}
+	.st3{font-family:'AdobeSongStd-Light-GBpc-EUC-H';}
+	.st4{font-size:15px;}
+	.st5{fill:#f9ea66;}
+	.st6{fill:#727171;}
+	.st7{fill:#333333;}
+	.st8{font-family:'SimHei';}
+	.st9{font-size:14px;}
+	.st10{fill:#B5B5B6;}
+	.st11{fill:none;stroke:#898989;stroke-width:3;stroke-miterlimit:10;}
+	.st12{fill:#FBBEA5;}
+	.st13{fill:none;stroke:#DCDDDD;stroke-width:3;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#898989;stroke-miterlimit:10;}
+
+	
+	</style>
+    <linearGradient id="未命名的渐变" x1="-746.07" y1="425.75" x2="-746.07" y2="424.83" gradientTransform="matrix(246, 0, 0, -176, 183715.65, 75001.39)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#715d0e"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect class="cls-1" x="242.85" y="70.09" width="62.33" height="113.67"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect class="cls-1" x="58.02" y="70.09" width="62.33" height="113.67"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect class="cls-1" x="57.77" y="236.47" width="247.17" height="18"/>
+    </clipPath>
+  </defs>
+  <title>资源 12</title>
+  <g id="图层_2" data-name="图层 2">
+    <g id="图层_1-2" data-name="图层 1">
+      <polygon id="Combined-Shape-Copy" class="cls-2" points="304.35 176.93 304.35 235.76 58.35 235.76 58.35 176.93 58.35 68.76 304.35 68.76 304.35 176.93"/>
+      <g id="Rectangle-21-Copy-8">
+        <g id="path-10-link">
+          <polygon id="path-10" class="cls-3" points="58.35 244.76 304.35 244.76 304.35 254.76 58.35 254.76 58.35 244.76"/>
+        </g>
+        <g id="path-10-link-2">
+          <g id="path-10-2">
+            <polygon id="path-2" points="58.35 244.76 304.35 244.76 304.35 254.76 58.35 254.76 58.35 244.76"/>
+          </g>
+        </g>
+      </g>
+      <rect id="Rectangle-24-Copy" class="cls-4" x="-8" y="68.76" width="85%" height="1"/>
+      <rect id="Rectangle-25-Copy-3" class="cls-4" x="-8" y="183.76" width="130" height="1"/>
+      <g id="_0_m_" data-name=" 0 m ">
+        <text class="cls-5" transform="translate(319.35 255)">0(m)</text>
+      </g>
+     <text class="cls-5" id="guandingbiaogao" transform="translate(-10 178.76)">--(m)</text>
+      <text class="cls-5" id="jingdibiaogao" transform="translate(-10 255)">--(m)</text>
+      <text class="cls-5" id="dimianbiaogao" transform="translate(-10 60.76)">--(m)</text>
+      <text class="cls-5" id="jingshen" transform="translate(312 60.76)">--(m)</text>
+      <text class="cls-5" id="guanding" transform="translate(318 178.76)">--(m)</text>
+      <g id="LabelMark">
+        <g id="管顶">
+          <text class="cls-6" transform="translate(319.35 203)">管顶</text>
+        </g>
+        <g id="井深">
+          <text class="cls-6" transform="translate(319.35 88.76)">井深</text>
+        </g>
+        <g id="Group">
+          <g id="地面标高">
+            <text class="cls-6" transform="translate(-10 88.76)">地面标高</text>
+          </g>
+        </g>
+        <g id="Group-2">
+          <g id="管顶标高">
+            <text class="cls-6" transform="translate(-10 203)">管顶标高</text>
+          </g>
+        </g>
+        <g id="Group-3">
+          <g id="井底标高">
+            <text class="cls-6" transform="translate(-10 232.26)">井底标高</text>
+          </g>
+        </g>
+        <g id="水位示意图">
+          <text class="cls-7" transform="translate(148.35 28.76)">水位示意图</text>
+        </g>
+       <text class="cls-8" id="txtShijian" transform="translate(119 50.76)">2017-03-12 12:30:00</text>
+      </g>
+      <rect  id="water" class="cls-9" x="59" y="254.56" width="246" height="0"> 
+
+ 
+         
+     </rect> 
+
+   
+
+
+
+<g id="zGroup" transform="matrix(1,0,0,1,135,227)">
+  	<text>
+  	    <tspan x="0" y="-5" class="st2 st3 st4" id="shuishen">水深：</tspan>
+  	       <tspan x="0" y="20" class="st5 st3 st4" id="shuiwei">水位：</tspan>
+  	</text>
+</g>s
+
+     
+
+
+
+
+      <rect class="cls-12" x="58.02" y="70.09" width="62.33" height="113.67"/>
+      <rect class="cls-12" x="58.02" y="235.97" width="247.17" height="18.79"/>
+      <rect class="cls-12" x="242.85" y="70.09" width="62.33" height="113.67"/>
+      <rect id="Rectangle-25-Copy-5" class="cls-4" x="242.35" y="183.76" width="125" height="1"/>
+      <rect id="Rectangle-25-Copy-4" class="cls-4" x="-10" y="235.76" width="85%" height="1"/>
+      <g class="cls-13">
+        <rect id="Rectangle-24-Copy-2" class="cls-14" x="273.52" y="36.98" width="1" height="89" transform="translate(30.07 230.51) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-3" class="cls-14" x="273.52" y="48.33" width="1" height="89" transform="translate(21.63 234.27) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-4" class="cls-14" x="273.53" y="59.7" width="1" height="89" transform="translate(13.18 238.03) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-5" class="cls-14" x="273.53" y="71.07" width="1" height="89" transform="translate(4.74 241.79) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-6" class="cls-14" x="273.53" y="82.44" width="1" height="89" transform="translate(-3.71 245.54) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-7" class="cls-14" x="273.53" y="93.79" width="1" height="89" transform="translate(-12.14 249.3) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-8" class="cls-14" x="273.52" y="105.15" width="1" height="89" transform="translate(-20.59 253.05) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-9" class="cls-14" x="273.52" y="116.53" width="1" height="89" transform="translate(-29.03 256.81) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-10" class="cls-14" x="273.52" y="127.89" width="1" height="89" transform="translate(-37.48 260.57) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-11" class="cls-14" x="273.53" y="139.25" width="1" height="89" transform="translate(-45.91 264.33) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-12" class="cls-14" x="273.53" y="25.61" width="1" height="89" transform="translate(38.51 226.76) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-13" class="cls-14" x="273.53" y="14.24" width="1" height="89" transform="translate(46.96 223) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-14" class="cls-14" x="273.53" y="2.88" width="1" height="89" transform="translate(55.4 219.24) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-15" class="cls-14" x="273.53" y="-8.48" width="1" height="89" transform="translate(63.84 215.49) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-16" class="cls-14" x="273.53" y="150.62" width="1" height="89" transform="translate(-54.36 268.09) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-17" class="cls-14" x="273.52" y="161.98" width="1" height="89" transform="translate(-62.8 271.83) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-18" class="cls-14" x="273.53" y="31.11" width="1" height="89" transform="translate(34.42 228.58) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-19" class="cls-14" x="273.53" y="42.48" width="1" height="89" transform="translate(25.97 232.34) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-20" class="cls-14" x="273.53" y="53.85" width="1" height="89" transform="translate(17.53 236.09) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-21" class="cls-14" x="273.53" y="65.21" width="1" height="89" transform="translate(9.09 239.85) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-22" class="cls-14" x="273.52" y="76.57" width="1" height="89" transform="translate(0.65 243.6) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-23" class="cls-14" x="273.52" y="87.94" width="1" height="89" transform="translate(-7.8 247.36) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-24" class="cls-14" x="273.53" y="99.3" width="1" height="89" transform="translate(-16.23 251.12) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-25" class="cls-14" x="273.53" y="110.66" width="1" height="89" transform="translate(-24.68 254.88) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-26" class="cls-14" x="273.53" y="122.03" width="1" height="89" transform="translate(-33.12 258.63) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-27" class="cls-14" x="273.52" y="133.4" width="1" height="89" transform="translate(-41.57 262.39) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-28" class="cls-14" x="273.53" y="19.75" width="1" height="89" transform="translate(42.87 224.82) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-29" class="cls-14" x="273.53" y="8.39" width="1" height="89" transform="translate(51.3 221.07) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-30" class="cls-14" x="273.52" y="-2.98" width="1" height="89" transform="translate(59.75 217.3) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-31" class="cls-14" x="273.53" y="-14.34" width="1" height="89" transform="translate(68.19 213.55) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-32" class="cls-14" x="273.52" y="144.75" width="1" height="89" transform="translate(-50 266.14) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-33" class="cls-14" x="273.53" y="156.12" width="1" height="89" transform="translate(-58.45 269.91) rotate(-47.98)"/>
+      </g>
+      <g class="cls-15">
+        <rect id="Rectangle-24-Copy-34" class="cls-14" x="88.68" y="36.98" width="1" height="89" transform="translate(-31.04 93.19) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-35" class="cls-14" x="88.68" y="48.34" width="1" height="89" transform="translate(-39.49 96.95) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-36" class="cls-14" x="88.69" y="59.7" width="1" height="89" transform="translate(-47.93 100.71) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-37" class="cls-14" x="88.68" y="71.07" width="1" height="89" transform="translate(-56.37 104.46) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-38" class="cls-14" x="88.69" y="82.44" width="1" height="89" transform="translate(-64.82 108.22) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-39" class="cls-14" x="88.69" y="93.8" width="1" height="89" transform="translate(-73.26 111.98) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-40" class="cls-14" x="88.67" y="105.15" width="1" height="89" transform="translate(-81.7 115.73) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-41" class="cls-14" x="88.68" y="116.53" width="1" height="89" transform="translate(-90.14 119.49) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-42" class="cls-14" x="88.68" y="127.89" width="1" height="89" transform="translate(-98.59 123.25) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-43" class="cls-14" x="88.69" y="139.26" width="1" height="89" transform="translate(-107.03 127.01) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-44" class="cls-14" x="88.68" y="25.61" width="1" height="89" transform="translate(-22.6 89.44) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-45" class="cls-14" x="88.69" y="14.24" width="1" height="89" transform="translate(-14.15 85.68) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-46" class="cls-14" x="88.69" y="2.89" width="1" height="89" transform="translate(-5.72 81.92) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-47" class="cls-14" x="88.69" y="-8.48" width="1" height="89" transform="translate(2.73 78.17) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-48" class="cls-14" x="88.68" y="150.62" width="1" height="89" transform="translate(-115.47 130.76) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-49" class="cls-14" x="88.68" y="161.98" width="1" height="89" transform="translate(-123.91 134.51) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-50" class="cls-14" x="88.68" y="31.11" width="1" height="89" transform="translate(-26.69 91.25) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-51" class="cls-14" x="88.69" y="42.48" width="1" height="89" transform="translate(-35.14 95.02) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-52" class="cls-14" x="88.69" y="53.85" width="1" height="89" transform="translate(-43.58 98.77) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-53" class="cls-14" x="88.68" y="65.21" width="1" height="89" transform="translate(-52.02 102.53) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-54" class="cls-14" x="88.68" y="76.57" width="1" height="89" transform="translate(-60.46 106.28) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-55" class="cls-14" x="88.68" y="87.94" width="1" height="89" transform="translate(-68.91 110.04) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-56" class="cls-14" x="88.69" y="99.31" width="1" height="89" transform="translate(-77.35 113.8) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-57" class="cls-14" x="88.68" y="110.66" width="1" height="89" transform="translate(-85.79 117.55) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-58" class="cls-14" x="88.69" y="122.03" width="1" height="89" transform="translate(-94.23 121.31) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-59" class="cls-14" x="88.68" y="133.4" width="1" height="89" transform="translate(-102.68 125.07) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-60" class="cls-14" x="88.69" y="19.76" width="1" height="89" transform="translate(-18.25 87.5) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-61" class="cls-14" x="88.69" y="8.39" width="1" height="89" transform="translate(-9.81 83.75) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-62" class="cls-14" x="88.68" y="-2.98" width="1" height="89" transform="translate(-1.36 79.98) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-63" class="cls-14" x="88.68" y="-14.34" width="1" height="89" transform="translate(7.08 76.23) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-64" class="cls-14" x="88.68" y="144.76" width="1" height="89" transform="translate(-111.12 128.83) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-65" class="cls-14" x="88.68" y="156.12" width="1" height="89" transform="translate(-119.56 132.58) rotate(-47.98)"/>
+      </g>
+      <g class="cls-16">
+        <rect id="Rectangle-24-Copy-66" class="cls-14" x="245.81" y="182.27" width="1" height="89" transform="translate(-87.04 257.96) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-66-2" data-name="Rectangle-24-Copy-66" class="cls-14" x="288.81" y="182.27" width="1" height="89" transform="translate(-72.82 289.91) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-67" class="cls-14" x="239.73" y="182.27" width="1" height="89" transform="translate(-89.05 253.44) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-68" class="cls-14" x="251.9" y="182.27" width="1" height="89" transform="translate(-85.03 262.48) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-69" class="cls-14" x="257.98" y="182.27" width="1" height="89" transform="translate(-83.01 267) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-70" class="cls-14" x="203.23" y="182.27" width="1" height="89" transform="translate(-101.12 226.33) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-71" class="cls-14" x="191.06" y="182.27" width="1" height="89" transform="translate(-105.14 217.29) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-72" class="cls-14" x="197.15" y="182.27" width="1" height="89" transform="translate(-103.13 221.81) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-73" class="cls-14" x="209.31" y="182.27" width="1" height="89" transform="translate(-99.1 230.84) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-74" class="cls-14" x="154.56" y="182.27" width="1" height="89" transform="translate(-117.21 190.17) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-75" class="cls-14" x="142.4" y="182.37" width="1" height="88.84" transform="translate(-121.14 180.5) rotate(-47.84)"/>
+        <rect id="Rectangle-24-Copy-76" class="cls-14" x="148.48" y="182.37" width="1" height="88.84" transform="translate(-119.14 185.01) rotate(-47.84)"/>
+        <rect id="Rectangle-24-Copy-77" class="cls-14" x="160.65" y="182.27" width="1" height="89" transform="translate(-115.19 194.69) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-78" class="cls-14" x="99.81" y="182.27" width="1" height="89" transform="translate(-135.31 149.5) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-79" class="cls-14" x="93.73" y="182.27" width="1" height="89" transform="translate(-137.32 144.98) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-80" class="cls-14" x="105.89" y="182.27" width="1" height="89" transform="translate(-133.3 154.01) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-81" class="cls-14" x="111.98" y="182.27" width="1" height="89" transform="translate(-131.28 158.53) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-82" class="cls-14" x="63.31" y="182.27" width="1" height="89" transform="translate(-147.37 122.38) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-83" class="cls-14" x="51.14" y="182.27" width="1" height="89" transform="translate(-151.4 113.34) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-84" class="cls-14" x="57.23" y="182.27" width="1" height="89" transform="translate(-149.39 117.86) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-85" class="cls-14" x="69.39" y="182.27" width="1" height="89" transform="translate(-145.36 126.9) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-86" class="cls-14" x="276.23" y="182.27" width="1" height="89" transform="translate(-76.98 280.56) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-87" class="cls-14" x="264.06" y="182.27" width="1" height="89" transform="translate(-81 271.52) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-88" class="cls-14" x="270.15" y="182.27" width="1" height="89" transform="translate(-78.99 276.04) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-89" class="cls-14" x="282.31" y="182.27" width="1" height="89" transform="translate(-74.97 285.08) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-90" class="cls-14" x="233.65" y="182.27" width="1" height="89" transform="translate(-91.06 248.92) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-91" class="cls-14" x="215.4" y="182.27" width="1" height="89" transform="translate(-97.09 235.36) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-92" class="cls-14" x="221.48" y="182.27" width="1" height="89" transform="translate(-95.08 239.88) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-93" class="cls-14" x="227.56" y="182.27" width="1" height="89" transform="translate(-93.07 244.4) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-94" class="cls-14" x="166.73" y="182.27" width="1" height="89" transform="translate(-113.18 199.21) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-95" class="cls-14" x="172.81" y="182.27" width="1" height="89" transform="translate(-111.17 203.73) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-96" class="cls-14" x="178.9" y="182.27" width="1" height="89" transform="translate(-109.16 208.25) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-97" class="cls-14" x="184.98" y="182.27" width="1" height="89" transform="translate(-107.15 212.77) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-98" class="cls-14" x="124.15" y="182.27" width="1" height="89" transform="translate(-127.26 167.57) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-99" class="cls-14" x="118.06" y="182.27" width="1" height="89" transform="translate(-129.27 163.05) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-100" class="cls-14" x="130.23" y="182.27" width="1" height="89" transform="translate(-125.25 172.09) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-101" class="cls-14" x="136.31" y="182.27" width="1" height="89" transform="translate(-123.24 176.61) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-102" class="cls-14" x="87.64" y="182.27" width="1" height="89" transform="translate(-139.33 140.46) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-103" class="cls-14" x="75.48" y="182.27" width="1" height="89" transform="translate(-143.35 131.42) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-104" class="cls-14" x="81.56" y="182.27" width="1" height="89" transform="translate(-141.34 135.94) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-105" class="cls-14" x="32.89" y="182.27" width="1" height="89" transform="translate(-157.43 99.78) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-105-2" data-name="Rectangle-24-Copy-105" class="cls-14" x="38.98" y="182.27" width="1" height="89" transform="translate(-155.42 104.3) rotate(-47.98)"/>
+        <rect id="Rectangle-24-Copy-105-3" data-name="Rectangle-24-Copy-105" class="cls-14" x="45.06" y="182.27" width="1" height="89" transform="translate(-153.41 108.82) rotate(-47.98)"/>
+      </g>
+    </g>
+  </g>
+</svg>
